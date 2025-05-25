@@ -87,7 +87,7 @@ a {
     text-decoration: none;
     text-decoration-color: var(--background-color);
     display: inline-block;
-
+    font-weight: 600;
 }
 
 a:hover {
@@ -141,8 +141,7 @@ a:hover {
 .menu-links a {
     display: block;
     padding: 10px;
-    text-align: center;
-    font-size: 1.125rem;
+    text-align: center;     
     text-decoration: none;
     transition: all 0.3 ease-in-out;background-color: var(--color-3);
 }
@@ -203,6 +202,7 @@ a:hover {
     margin-right: -6rem;
     padding-top: 0;
     height: 100vh;
+    min-height: fit-content;
     z-index: 1;
     background-image: url(assets/profile-dotted-2-pic.jpg);
     background-size: cover;
@@ -224,15 +224,15 @@ a:hover {
 }
 
 .profile-text-container {
+    height: 60vh;    
+    min-height: fit-content;
+    width: max(25vw, 370px);
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;    
     align-items: flex-start;
     gap: 1.3rem;
-    background-color: var(--background-color);
-    height: 60vh;
-    min-height: fit-content;
-    width: max(25vw, 370px);
-    padding: 1.5rem;
+    background-color: var(--background-color);    
     z-index: 2;    
     animation: fadeIn 1s ease-out;
 }
@@ -278,6 +278,7 @@ a:hover {
 /*ICONS*/
 
 .icon {
+    display: none;
     cursor: pointer;
     height: 2rem;
 }
@@ -422,7 +423,7 @@ img {
 }
 
 .about-section-title {
-    font-size: 7rem;
+    font-size: 3rem;
     text-align: left;
     padding-top: 6rem;
     padding-bottom: 2rem;
@@ -456,22 +457,59 @@ img {
         margin-left: -6rem;
         margin-right: -6rem;
         background-color: var(--color-3);  
+        
     }
 
-    #contact {
-        position: relative;
-        min-height: 90vh;          
+    #contact {        
+        min-height: 80vh;               
+        padding: 2rem 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                
+    } 
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;        
+        align-items: center;
+    }
+    
+    .contact-details-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        gap: 1rem;         
+        /* padding: 3rem 6rem; */
+    }
+
+    .contact-section-title  {               
+        color: var(--color-4);
+        text-align: right;
+        font-size: 6rem;        
+    }
+
+    .contact-details {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .contact-details 
+    a {
+        color: var(--color-4);        
+    }
+    /* #contact {        
+        min-height: 80vh;          
+        display: flex;
+        flex-direction: column;        
+        padding: 2rem 2rem 0;
                 
     }
 
     .contact-section-title  {               
         color: var(--color-4);
         text-align: center;
-        font-size: 6rem;
-        
+        font-size: 5rem;        
     }
 
     .contact-details-container {
@@ -488,8 +526,8 @@ img {
 
     .contact-details 
     a {
-        color: var(--color-4);
-    }
+        color: var(--color-4);        
+    } */
 
 
 /*FOOTER*/
@@ -497,9 +535,10 @@ img {
 footer {    
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    align-items: flex-end;  
     gap: 2rem;
-    padding: 0 6rem 2rem;    
+    padding: 0 6rem 1.5rem;    
 }
 
 footer p {    
@@ -513,6 +552,7 @@ footer p {
     font-weight: 600;
     padding: 0.5rem;
 }
+
 
 
 

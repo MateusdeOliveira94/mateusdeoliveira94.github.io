@@ -97,13 +97,13 @@
     }
 
     .contact-section-title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .contact-details-container {        
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
         padding: 3rem 0rem;
         
     }
@@ -221,8 +221,7 @@
             
     } */
     
-    .profile-text-container {       
-        height: fit-content;
+    .profile-text-container {      
         padding: 0;
     }
 
@@ -269,16 +268,12 @@
         align-items: center;     
     }
 
-    .about-section-title {
-        font-size: 1.5rem;
+    .about-section-title {        
         text-align: center;
         margin-bottom: 1.5rem;
         padding: 0;
     }
-
-    .contact-section-title  {            
-        font-size: 1.5rem;
-    }
+   
 
     #contact, 
     #footer {        
@@ -290,8 +285,8 @@
     footer {       
         flex-direction: column;
         align-items: center;    
-        gap: 1.5rem;   
-        padding: 0 0rem 2rem;       
+        gap: 1rem;   
+        padding: 0 0 2rem;       
     }
 
 }

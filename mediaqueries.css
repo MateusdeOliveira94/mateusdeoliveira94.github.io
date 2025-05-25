@@ -97,21 +97,13 @@
     }
 
     .contact-section-title {
-        font-size: 3rem;
-    }
+        font-size: 3.4rem;
+    }  
 
-    .contact-details-container {        
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        padding: 3rem 0rem;
+    .contact-container {        
+        gap: 2rem;        
         
     }
-
-    .contact-details {
-    flex-direction: column;    
-    }
-    
 
 
 }
@@ -280,6 +272,23 @@
         width: calc(100% + 2rem);
         margin-left: -1rem;
         margin-right: -1rem;                  
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-details-container {               
+        border-left: none;
+        padding-left: none;         
+    }
+
+    .contact-details {
+        justify-content: center;
+    }
+
+    .contact-section-title  {               
+        text-align: center;        
     }
 
     footer {       

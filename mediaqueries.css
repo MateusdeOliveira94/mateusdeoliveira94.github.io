@@ -55,26 +55,27 @@
     }   
     
     .lg-project-container {     
-        gap: 2rem;
+        gap: 2rem;            
     }
 
     .project-details-container,
     .sm-project-details-container {   
-        flex-direction: column;        
+        flex-direction: column;               
         gap: 0rem;                
     }
 
     .sm-project-details-container img {
-    width: 100%;
+        width: 100%;
+        max-height: fit-content;
     }
 
     .project-img {        
-        width: 100%;
+        width: 100%;        
     }
 
     .project-info-container {
         width: 100%;  
-        gap: 1rem;     
+            
         padding: 1rem;              
     } 
     
@@ -87,16 +88,39 @@
     .btn-container {
         align-self: flex-end;
     }
+
+    #contact, 
+    #footer {        
+        width: calc(100% + 8rem);
+        margin-left: -4rem;
+        margin-right: -4rem;         
+    }
+
+    .contact-section-title {
+        font-size: 2rem;
+    }
+
+    .contact-details-container {        
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0rem;
+        
+    }
+
+    .contact-details {
+    flex-direction: column;    
+    }
     
 
 
 }
 
 @media screen and (max-width: 600px) {
-   #contact, 
+   /* #contact, 
    footer {
     height: 20vh;
-   }
+   } */
    /* #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -185,19 +209,19 @@
         margin: 0;                       
     }
 
-    .section__pic-container {
+    /* .section__pic-container {
         display: block;
         width: auto;
         height: 46vw;
         justify-content: center;
-    } 
+    }  */
 
-    .profile-pic-container {  
+    /* .profile-pic-container {  
         display: none;         
             
-    }
+    } */
     
-    .section__text {       
+    .profile-text-container {       
         height: fit-content;
         padding: 0;
     }
@@ -213,8 +237,7 @@
     }   
     
     .sm-project-container {
-        flex-direction: column;    
-        
+        flex-direction: column;           
     }
 
     .project-img {        
@@ -234,11 +257,41 @@
     }
 
     .project-label {
-    font-size: 1rem;
-}
+        font-size: 1rem;
+    }
 
     .project-title {
         font-size: 1.5rem;
+    }
+
+    .about-container {
+        flex-direction: column;  
+        align-items: center;     
+    }
+
+    .about-section-title {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+
+    .contact-section-title  {            
+        font-size: 1.5rem;
+    }
+
+    #contact, 
+    #footer {        
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+        margin-right: -1rem;                  
+    }
+
+    footer {       
+        flex-direction: column;
+        align-items: center;    
+        gap: 1.5rem;   
+        padding: 0 0rem 2rem;       
     }
 
 }

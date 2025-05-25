@@ -13,9 +13,8 @@
             <nav id="desktop-nav">
                 <div>
                     <ul class="nav-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
                         <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -28,21 +27,24 @@
                         <span></span>
                     </div>
                     <div class="menu-links">
-                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>                        
                     </div>
                 </div>
             </nav>
             <div class="profile">
-                <div class="section__text">
-                    <h1 class="profile-title">Hello, I'm Mateus de Oliveira</h1>
-                    <p class="section__text__p2">UX/UI Designer</p>
+                <div class="profile-text-container">
+                    <h1 class="profile-title">Hello, I'm<br>
+                        Mateus de Oliveira<br>
+                        <span class="highlight-title">Digital Product Designer</span><br> 
+                        <p class="tagline">Digital design, architecturally crafted.</p>
+                    </h1>
+                    
             
                     <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             
-                    <div class="socials-container">
+                    <!-- <div class="socials-container">
                         <a href="https://www.linkedin.com/in/mateusdeoliveira94/" target="_blank" rel="noopener noreferrer  ">
                             <img src="assets/linkedin.png" alt="My linkedin profile" class="icon">
                         </a>
@@ -53,7 +55,7 @@
                             <img src="assets/behance.png" alt="My behance profile" class="icon">
                         </a>
             
-                    </div>
+                    </div> -->
                 </div>
                 <!-- <div class="profile-pic-container">
                     <img src="assets/dotted-profile-picture.png" alt="Mateus profile picture">
@@ -87,7 +89,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project-details-container">       
+            <div class="project-details-container project-2">       
                 <img src="assets/project-2-cover.png" alt="project 2" class="project-img">
                 <div class="project-info-container">  
                     <p class="project-label">Case Study: Arc App</p>
@@ -134,7 +136,7 @@
                     </div>
                 </div>
                 <div class="sm-project-details-container">
-                    <img src="assets/project-4-cover.png" alt="project 2" class="project-img">
+                    <img src="assets/project-4-cover.jpg" alt="project 2" class="project-img">
                     <div class="project-info-container">
                         <p class="project-label">Case Study: Arc App</p>
                         <h2 class="sm-project-title">Reimagining the experience of hiring architects
@@ -170,44 +172,45 @@
                 <img src="assets/profile-sm-pic.jpg" alt="Profile picture" class="about-profile-img">
                 <div class="about-details-container">
                     <p>
-                        Sou o Mateus, UX/UI Designer Júnior com alma de arquiteto e coração voltado para experiências digitais. Depois de anos projetando espaços físicos, descobri minha paixão por desenhar jornadas no mundo digital — acessíveis, funcionais e com propósito.
-                        Acredito em um design guiado pela empatia, fundamentado em pesquisa, dados do mundo real e com foco em produtos que não só encantam usuários, mas também impulsionam objetivos de negócio. Sigo em constante aprendizado, explorando como a tecnologia pode melhorar a vida das pessoas — uma interface de cada vez.
+                        I'm Mateus, a Junior UX/UI Designer with an architect's soul and a heart for digital experiences. After years of designing physical spaces, I discovered my passion for designing journeys in the digital world — accessible, functional, and purposeful. I believe in empathy-driven design, grounded in research and real-world data, and focused on products that not only delight users but also drive business goals. I'm constantly learning, exploring how technology can improve people's lives — one interface at a time.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <section id="contact">
+        <div class="contact-container">
+            <h1 class="contact-section-title">Interested in collaborating?</h1>
+            <div class="contact-details-container">
+                <div class="contact-details">
+                    <img src="assets/email.png" alt="Email icon" class="icon contact-icon">
+                    <p><a href="mailto:henrique_mateus94@hotmail.com">henrique_mateus94@hotmail.com</a></p>
+                </div>
+                <div class="contact-details">
+                     <img src="assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/mateusdeoliveira94/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </div>
+                <div class="contact-details">
+                     <img src="assets/behance.png" alt="behance icon" class="icon contact-icon">
+                    <p><a href="https://www.behance.net/matthricko" target="_blank" rel="noopener noreferrer">Behance</a></p>
+                </div>
+                <div class="contact-details">
+                     <img src="assets/github.png" alt="Github icon" class="icon contact-icon">
+                    <p><a href="https://github.com/MateusdeOliveira94" target="_blank" rel="noopener noreferrer">Github</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </footer>
-    <!-- <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="section-title"> About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                 <img src="assets/profile4-pic.png" alt="Profile picture" class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="assets/experience.png" alt="Experience Icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>2+ years <br>Frontend Development</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="assets/education.png" alt="Education Icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>Architecture Degree <br>Pos-graduation UX engineering</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos consequuntur, velit quod autem in nostrum repudiandae odit ipsa beatae, impedit sint. Corporis iure exercitationem architecto nostrum sit nesciunt voluptate.</p>
-                </div>
-            </div>
-        </div>      
+    <footer id="footer">  
+        <div class="back-top-container">
+            <a href="#hero">Back to top <span>&#129129;</span></a>
+        </div>
         
-    </section> -->
+        <p>Designed & Developed by <em>Mateus de Oliveira</em></p>
+    </footer>    
+    
     <!-- <section id="experience">
         <p class="section__text__p1">Explore my</p>
         <h1 class="section-title">Experience</h1>

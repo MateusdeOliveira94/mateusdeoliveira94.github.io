@@ -207,9 +207,10 @@ a:hover {
 }
 
 .section-title {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;    
+    margin-bottom: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
 
 /* HERO SECTION*/
@@ -435,12 +436,6 @@ img {
     flex-direction: column;
     justify-content: space-between;
     padding: 4rem 0;
-}
-
-.about-section-title {
-    font-size: 3rem;
-    text-align: left;    
-    padding-bottom: 2rem;
 }
 
 .about-container {

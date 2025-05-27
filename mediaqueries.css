@@ -147,6 +147,11 @@
         font-size: 4.2rem;               
     }
 
+    .section-title {
+        font-size: 1.5rem;   
+        text-align: center;
+    }
+
    .project-details-container,
    .sm-project-details-container {   
         flex-direction: column;        
@@ -173,8 +178,7 @@
     
     .project-info-container button {
         margin-top: 0.5rem;  
-        padding: 0.5rem .8rem;          
-                                 
+        padding: 0.5rem 0.8rem;                      
     }
 
     .project-label {
@@ -196,11 +200,7 @@
 
     .about-container a {
         color: var(--color-3);
-    }
-
-    .about-section-title {        
-        text-align: center;        
-    }   
+    }       
 
     #contact, 
     #footer {        

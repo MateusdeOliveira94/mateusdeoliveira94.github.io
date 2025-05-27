@@ -353,7 +353,7 @@ a:hover {
 .project-img {
     display: block;
     width: 60%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     transition: all 1.5s cubic-bezier(0.2, 0, 0.2, 1);    
     transition-delay: 0.2s;   
@@ -399,6 +399,7 @@ img {
 .project-info-container {
     gap: 0.5rem;
     padding: 1.5rem;
+    height: 100%;
 }
 
 .project-tag {

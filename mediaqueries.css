@@ -185,14 +185,15 @@
     display: flex;
     }   
     
-    a {
+    .menu-links a {
         color: var(--background-color);        
     }
     
-    a:hover {
-        color: var(--color-3);
-        background-color: var(--background-color);
+    .menu-links a:hover {
+        
+        background: hsl(84, 29%, 17%);
         transform: none;
+        text-decoration: line-through;
     }
 
     #hero {
@@ -265,12 +266,8 @@
     }
 
     .about-section-title {        
-        text-align: center;
-        margin-bottom: 1.5rem;
-        padding: 0;
-    }
-
-   
+        text-align: center;        
+    }   
 
     #contact, 
     #footer {        

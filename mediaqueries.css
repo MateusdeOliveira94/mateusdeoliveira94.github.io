@@ -180,7 +180,11 @@
 
     .about-container {
         flex-direction: column;  
-        align-items: center;             
+        align-items: center;              
+    }
+
+    .about-details-container {
+        width: 100%;;              
     }
 
     .about-container a {
@@ -195,7 +199,9 @@
     #footer {        
         width: calc(100% + 2rem);
         margin-left: -1rem;
-        margin-right: -1rem;                  
+        margin-right: -1rem;  
+        padding-right: 1rem;   
+        padding-left: 1rem;                 
     }
 
     .contact-container {
@@ -219,6 +225,6 @@
         flex-direction: column;
         align-items: center;    
         gap: 1rem;   
-        padding: 0 0 2rem;       
+        padding-bottom: 2rem;               
     }
 }

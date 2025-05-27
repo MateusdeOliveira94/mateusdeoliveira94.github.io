@@ -458,7 +458,7 @@ img {
 }
 
 .about-details-container {
-    width: clamp(320px, 45%, 800px);
+    width: clamp(320px, 45%, 800px);    
 }
 
 .topic {
@@ -555,6 +555,7 @@ footer {
 
 footer p {            
     opacity: 0.8;
+    text-align: center;
 }
 
 .back-top-container {

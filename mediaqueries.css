@@ -97,11 +97,11 @@
     }
 
     .contact-section-title {
-        font-size: 3.4rem;
+        font-size: 3rem;
     }  
 
     .contact-container {        
-        gap: 2rem;        
+        gap: 1.2rem;        
         
     }
 
@@ -260,11 +260,16 @@
         align-items: center;     
     }
 
+    .about-container a {
+        color: var(--color-3);
+    }
+
     .about-section-title {        
         text-align: center;
         margin-bottom: 1.5rem;
         padding: 0;
     }
+
    
 
     #contact, 

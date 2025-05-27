@@ -458,7 +458,7 @@ img {
 }
 
 .about-details-container {
-    width: clamp(370px, 45%, 800px);
+    width: clamp(320px, 45%, 800px);
 }
 
 .topic {

@@ -30,7 +30,7 @@ const observer2 = new IntersectionObserver((entries) => {
     }
   });
 }, {
-  threshold: 0.1, // Trigger when 10% visible
+  threshold: 0.9, // Trigger when 10% visible
   rootMargin: '0px 0px -50px 0px' // Adjust trigger point
 });
 

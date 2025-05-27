@@ -345,7 +345,7 @@ a:hover {
     width: 60%;
     min-height: fit-content;
     padding: 2rem;
-    background-color: hsl(210, 10%, 94%);;
+    background-color: hsl(210, 10%, 100%);;
     z-index: 10;
 }
 

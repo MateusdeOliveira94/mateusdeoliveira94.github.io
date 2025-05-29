@@ -1,5 +1,3 @@
-/*GENERAL*/
-
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 @keyframes fadeIn {
@@ -449,7 +447,7 @@ img {
 
 .about-profile-img {
     display: block;
-    width: clamp(130px, 10vw, 230px);
+    width: clamp(130px, 8vw, 230px);
     height: auto;
     object-fit: cover;
 }
@@ -552,7 +550,8 @@ footer {
     margin-top: -1px;     
 }
 
-footer p {            
+footer p {    
+    font-size: 0.875rem;        
     opacity: 0.8;
     text-align: center;
 }

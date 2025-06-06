@@ -242,18 +242,21 @@ a:hover {
 }
 
 .profile-text-container {
-    height: 60vh;    
+    height: min(560px, 60vh);    
     min-height: fit-content;
-    width: max(25vw, 370px);
+    width: max(25vw, 380px);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;    
     align-items: flex-start;
+    justify-content: center;
     gap: 1.3rem;
     background-color: var(--background-color);    
     z-index: 2;    
     overflow: hidden;
     animation: fadeIn 1s ease-out;
+    /* height: 60vh;     
+    width: max(25vw, 370px); */
 }
 
 .profile-pic-container {
@@ -268,9 +271,9 @@ a:hover {
 .highlight-title {
     display: block;
     padding-top: 1rem;    
-    font-size: 4.4rem;     
+    font-size: 4.2rem;     
     font-weight: 700;  
-    line-height: 4.4rem;         
+    line-height: 1;         
 }
 
 .tagline {        
@@ -364,10 +367,6 @@ a:hover {
 .lg-project-container
 img {
     filter: saturate(0.8);
-}
-
-.project-label {
-    font-weight: 600;
 }
 
 .project-title {    

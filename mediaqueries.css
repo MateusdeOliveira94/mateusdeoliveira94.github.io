@@ -1,5 +1,60 @@
-@media screen and (max-width: 1100px) {   
+@media screen and (min-width: 1800px) {
+    .profile-text-container {
+        height: 55vh;
+        gap:  2rem;
+    }
+
+    .profile-title {
+        font-size: 2rem;                
+    }
+
+    .highlight-title {
+        font-size: 5.6rem;
+        line-height: 1; 
+    }
+
+    .tagline {
+        font-size: 1.25rem;
+        margin-top: -0rem;
+    }
+
+    p, 
+    footer p, 
+    a, 
+    li {
+        font-size: 1.25rem;
+    }
+
+    .section-title {
+        font-size: 2.6rem;            
+    }
+
+    .tag {   
+        font-size: 1.2rem;     
+    }
+
+    .btn {    
+        font-size: 1.2rem;
+    }
     
+    .project-title {    
+        font-size: 2.6rem;
+    }
+
+    .sm-project-title {
+        font-size: 1.8rem;
+    }
+
+    .topic-title {
+        font-size: 1.25rem;           
+    }
+
+    .contact-section-title  {        
+    font-size: 10rem;        
+    }
+}
+
+@media screen and (max-width: 1100px) {      
     #desktop-nav {
         justify-content: center;        
     }   
@@ -67,7 +122,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px), (max-device-width: 600px) and (orientation: landscape), screen and (max-height: 500px) {
    .scroll-animate {
         animation: none !important;
         opacity: 1 !important; 
@@ -82,14 +137,14 @@
         margin-bottom: 2rem;
    }   
 
-   contact-info-container {
+    .contact-info-container {
         margin: 0;
-   }
+    }
 
-   contact-info-container p, 
-   .nav-links li a {
+    .contact-info-container p, 
+    .nav-links li a {
         font-size: 1rem;
-   }
+    }
 
    .experience-sub-title {
         font-size: 1.25rem;
